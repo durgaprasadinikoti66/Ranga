@@ -115,13 +115,13 @@ export function ContactSection() {
               <h4 className="font-medium text-gray-100 mb-4">Connect on Social</h4>
               <div className="flex gap-4">
                 <a
-                  href="#"
+                  href="https://github.com/komarthiranga"
                   className="w-12 h-12 bg-gradient-to-br from-gray-700 to-gray-800 rounded-lg flex items-center justify-center hover:from-purple-600 hover:to-purple-700 transition-all duration-300 hover:scale-110 group"
                 >
                   <Github className="h-5 w-5 text-gray-300 group-hover:text-white" />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/ranga-komarthi-89b96b44/"
                   className="w-12 h-12 bg-gradient-to-br from-gray-700 to-gray-800 rounded-lg flex items-center justify-center hover:from-blue-600 hover:to-blue-700 transition-all duration-300 hover:scale-110 group"
                 >
                   <Linkedin className="h-5 w-5 text-gray-300 group-hover:text-white" />
