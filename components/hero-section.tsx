@@ -8,16 +8,6 @@ export function HeroSection() {
     document.getElementById(sectionId)?.scrollIntoView({ behavior: "smooth" })
   }
 
-  const handleGithub = () => {
-    window.open("https://github.com/komarthiranga", "_blank")
-  }
-  const handleLinkedin = () => {
-    window.open("https://www.linkedin.com/in/ranga-komarthi-89b96b44/", "_blank")
-  }
-  const handleEmail = () => {
-    window.open("mailto:reduxranga@gmail.com", "_blank")
-  }
-
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-purple-900/50 to-slate-900 animate-gradient-shift"></div>
@@ -157,7 +147,6 @@ export function HeroSection() {
               variant="ghost"
               size="icon"
               className="text-gray-100 hover:text-purple-300 hover:bg-purple-500/20 glass-effect transition-all duration-300 hover:scale-110 backdrop-blur-sm border border-transparent hover:border-purple-400/30"
-              onClick={handleGithub}
             >
               <Github className="h-6 w-6" />
             </Button>
@@ -165,7 +154,6 @@ export function HeroSection() {
               variant="ghost"
               size="icon"
               className="text-gray-100 hover:text-cyan-300 hover:bg-cyan-500/20 glass-effect transition-all duration-300 hover:scale-110 backdrop-blur-sm border border-transparent hover:border-cyan-400/30"
-              onClick={handleLinkedin}
             >
               <Linkedin className="h-6 w-6" />
             </Button>
@@ -173,7 +161,6 @@ export function HeroSection() {
               variant="ghost"
               size="icon"
               className="text-gray-100 hover:text-orange-300 hover:bg-orange-500/20 glass-effect transition-all duration-300 hover:scale-110 backdrop-blur-sm border border-transparent hover:border-orange-400/30"
-              onClick={handleEmail}
             >
               <Mail className="h-6 w-6" />
             </Button>
